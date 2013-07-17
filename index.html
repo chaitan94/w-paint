@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paper</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+	<div class="settings">
+		<div class="paintSet settings-box">
+			Stroke width: <input type="number" value="2" id="strokeWidth"></input>
+			<hr>
+			Stroke color: <input type="color" value="#003399" id="strokeColor"></input>
+			<br>
+			Stroke color: <input type="color" value="#0099CC" id="fillColor"></input>
+			<hr>
+			Closed: <input type="checkbox" id="closed"></input>
+			<hr>
+			Tool: <input type="radio" name="tool" value="pen" checked>Pen</input>
+				  <input type="radio" name="tool" value="brush">Brush</input>
+			<hr>
+			<button id="save">Save Image!</button>
+			<hr>
+			<p style="padding:0;margin:0;font-size:22px;text-align:center;">
+			Tools</p>
+		</div>
+	</div>
+	<canvas id="main" resize></canvas>
+	<script type="text/javascript" src="js/paper-full.min.js"></script>
+	<script type="text/paperscript" src="js/main.js" canvas="main"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+html,
+body{
+	font-family: Helvetica;
+	margin: 0;
+	padding: 0;
+	background: rgb(249,247,245);
+	overflow: hidden;
+}
+.settings{
+	position: fixed;
+	right: 0;
+}
+.settings-box{
+	background: #FFF;
+	border: 1px #DDD solid;
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.6);
+	padding: 0 4px 4px 4px;
+	position: fixed;
+	right: 0;
+	top:-235px;
+
+	-webkit-transition: all 0.3s ease-out; 
+	 -moz-transition: all 0.3s ease-out; 
+	   -o-transition: all 0.3s ease-out; 
+	      transition: all 0.3s ease-out; 
+
+}
+.settings-box:hover{
+	top:0;
+}
