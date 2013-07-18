@@ -4,7 +4,7 @@ W-Paint
 W-Paint is a very simple, basic, light-weight, in-browser paint application.
 W-Paint is completely written in javascript, using paper.js library
 
-Complete we app now available at it's Github page: http://chaitan94.github.io/pixel3d/
+Complete we app now available at it's Github page: http://chaitan94.github.io/w-paint/
 
 #Modes
 * Pen
